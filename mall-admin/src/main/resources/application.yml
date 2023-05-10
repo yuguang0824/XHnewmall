@@ -10,7 +10,7 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-
+#mybatis配置
 mybatis:
   mapper-locations:
     - classpath:dao/*.xml
